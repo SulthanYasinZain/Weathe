@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "roboto", sans-serif;
+  background: rgb(69, 143, 252);
+  background: linear-gradient(
+    180deg,
+    rgba(69, 143, 252, 1) 0%,
+    rgba(131, 58, 180, 1) 100%
+  );
+}
