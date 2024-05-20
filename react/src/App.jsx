@@ -64,7 +64,7 @@ export default function App() {
         initial={{ opacity: 1 }}
         animate={{ opacity: isClicked ? 0 : 1, transition: { duration: 0.3 } }}
       >
-        <img src="/src/image/logo.png" alt="logo_weather" className="h-64" />
+        <img src="src/image/logo.png" alt="logo_weather" className="h-64" />
         <div className="mb-32">
           <h1 className="font-bold text-4xl text-left mr-10 bg-gradient-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent ">
             Weather Forecast Online
